@@ -1,3 +1,4 @@
+
 class q1:
     def __init__(self):
         self.tp = None

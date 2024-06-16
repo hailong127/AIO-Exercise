@@ -4,7 +4,6 @@ def factorial(x):
     else:
         return 1
 
-
 def approx_sin(x, n):
     if n <= 0:
         return print('n should be greater than 0')

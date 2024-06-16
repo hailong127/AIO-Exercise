@@ -4,6 +4,7 @@ def md_nre_single_sample(y, y_hat, n, p):
     loss = (y_root-y_hat_root)**p
     return print(loss)
 
+
 md_nre_single_sample(y=100, y_hat=99.5, n=2, p=1)
 md_nre_single_sample(y=50, y_hat=49.5, n=2, p=1)
 md_nre_single_sample(y=20, y_hat=19.5, n=2, p=1)

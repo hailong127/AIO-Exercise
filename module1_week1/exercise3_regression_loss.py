@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def mae(y, y_hat):
     return np.mean(np.abs(y - y_hat))
 
