@@ -43,3 +43,4 @@ output = softmax_stable(data)
 
 new_data = torch.Tensor([1, 2, 300000000])
 output = softmax_stable(new_data)
+
